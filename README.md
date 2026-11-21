@@ -3,7 +3,7 @@
 Interface responsiva em HTML, CSS e JavaScript puro.
 
 ## Arquivos
-- `index.html`: painel inicial.
+- `index.html`: painelll
 - `perfil.html`: edição do perfil demonstrativo.
 - `style.css`: estilos e layout.
 - `script.js`: navegação e salvamento local do perfil.
