@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d1b">
+  <title>336699 | Painel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="index.html"><span class="brand-mark">33</span><span>336699</span></a>
+      <p class="nav-label">MENU</p>
+      <a class="nav-link active" href="index.html"><span>▦</span> Visão geral</a>
+      <a class="nav-link" href="perfil.html"><span>◉</span> Meu perfil</a>
+      <a class="nav-link" href="#atividade"><span>↗</span> Atividades</a>
+      <div class="sidebar-bottom">
+        <div class="help-card"><strong>Central de ajuda</strong><small>Consulte as informações do projeto.</small></div>
+        <small class="muted">Projeto demonstrativo · v1.0</small>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <button class="menu-button" id="menuButton" aria-label="Abrir menu">☰</button>
+        <div><span class="eyebrow">PAINEL DO USUÁRIO</span><h1>Visão geral</h1></div>
+        <a class="avatar" href="perfil.html" aria-label="Abrir perfil">U</a>
+      </header>
+
+      <section class="welcome-row">
+        <div><p class="muted">Bem-vindo de volta,</p><h2 id="welcomeName">Usuário</h2><p class="muted">Aqui está o resumo da sua conta demonstrativa.</p></div>
+        <span class="status-pill"><i></i> Conta de demonstração</span>
+      </section>
+
+      <section class="stats-grid">
+        <article class="stat-card featured">
+          <div class="stat-top"><span>Saldo demonstrativo</span><span class="stat-icon">◈</span></div>
+          <strong class="big-value">R$ <span id="balance">0,00</span></strong>
+          <small>Valor fictício — não representa dinheiro real</small>
+        </article>
+        <article class="stat-card"><div class="stat-top"><span>Status da conta</span><span class="stat-icon">✓</span></div><strong class="stat-value">Ativa</strong><small>Ambiente de demonstração</small></article>
+        <article class="stat-card"><div class="stat-top"><span>Último acesso</span><span class="stat-icon">◷</span></div><strong class="stat-value" id="lastAccess">Agora</strong><small>Registro local ilustrativo</small></article>
+      </section>
+
+      <section class="content-grid" id="atividade">
+        <article class="panel">
+          <div class="panel-heading"><div><span class="eyebrow">CONTA</span><h3>Atividade recente</h3></div><span class="tag">Simulada</span></div>
+          <div class="empty-state"><div class="empty-icon">⌁</div><strong>Nenhuma atividade registrada</strong><p>Quando houver ações demonstrativas, elas aparecerão aqui.</p></div>
+        </article>
+        <article class="panel profile-summary">
+          <div class="panel-heading"><div><span class="eyebrow">SEUS DADOS</span><h3>Meu perfil</h3></div><a class="text-link" href="perfil.html">Editar →</a></div>
+          <div class="profile-line"><span class="mini-avatar">U</span><div><strong id="profileName">Usuário</strong><small id="profileEmail">usuario@exemplo.com</small></div></div>
+          <div class="detail-line"><span>Identificação</span><strong>Conta demonstrativa</strong></div>
+          <div class="detail-line"><span>Segurança</span><strong class="safe-text">Dados locais</strong></div>
+          <a class="primary-button full" href="perfil.html">Visualizar perfil</a>
+        </article>
+      </section>
+      <footer>© 2026 336699 · Interface demonstrativa. Sem depósitos, saques ou apostas.</footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

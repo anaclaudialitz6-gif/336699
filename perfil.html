@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d1b">
+  <title>Meu perfil | 336699</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="index.html"><span class="brand-mark">33</span><span>336699</span></a>
+      <p class="nav-label">MENU</p>
+      <a class="nav-link" href="index.html"><span>▦</span> Visão geral</a>
+      <a class="nav-link active" href="perfil.html"><span>◉</span> Meu perfil</a>
+      <a class="nav-link" href="index.html#atividade"><span>↗</span> Atividades</a>
+      <div class="sidebar-bottom"><div class="help-card"><strong>Central de ajuda</strong><small>Consulte as informações do projeto.</small></div><small class="muted">Projeto demonstrativo · v1.0</small></div>
+    </aside>
+    <main class="main-content">
+      <header class="topbar">
+        <button class="menu-button" id="menuButton" aria-label="Abrir menu">☰</button>
+        <div><span class="eyebrow">CONFIGURAÇÕES</span><h1>Meu perfil</h1></div>
+        <a class="avatar" href="perfil.html" aria-label="Perfil">U</a>
+      </header>
+      <section class="profile-hero">
+        <div class="large-avatar" id="largeAvatar">U</div>
+        <div><span class="status-pill"><i></i> Demonstração</span><h2 id="heroName">Usuário</h2><p class="muted">Gerencie as informações locais do seu perfil.</p></div>
+      </section>
+      <section class="panel form-panel">
+        <div class="panel-heading"><div><span class="eyebrow">INFORMAÇÕES PESSOAIS</span><h3>Dados do perfil</h3></div><span class="tag">Armazenamento neste navegador</span></div>
+        <form id="profileForm">
+          <label for="name">Nome de exibição</label>
+          <input id="name" name="name" maxlength="40" placeholder="Como deseja ser chamado?" required>
+          <label for="email">E-mail demonstrativo</label>
+          <input id="email" name="email" type="email" maxlength="80" placeholder="voce@exemplo.com" required>
+          <p class="form-note">Este formulário salva apenas no armazenamento local do navegador. Não envie senhas ou dados bancários.</p>
+          <div class="form-actions"><button class="primary-button" type="submit">Salvar alterações</button><a class="secondary-button" href="index.html">Voltar ao painel</a></div>
+          <p class="success-message" id="saveMessage" role="status"></p>
+        </form>
+      </section>
+      <footer>© 2026 336699 · Interface demonstrativa. Sem depósitos, saques ou apostas.</footer>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
